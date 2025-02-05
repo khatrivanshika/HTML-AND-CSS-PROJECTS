@@ -1,0 +1,67 @@
+*{
+    padding: 0%;
+    margin: 0 ;
+     box-sizing: border-box; 
+}
+.container{
+    background-color: rgb(155, 126, 189);
+    min-height: 100vh;
+    border: 25px solid rgb(59, 30, 84);
+}
+.content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.topsection{ 
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.topsection h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.topsection h4{
+    text-align: end ;
+}
+.imageofjane,img{
+    border-radius: 50%;
+    height: 400px;
+    width: 350px;
+}
+.about{
+    margin-top: 50px;
+}
+.about h1{
+    font-size: 70px; 
+    font-weight:400px;
+    margin-bottom: 20px;
+}
+.about p{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.books{
+    margin-top: 50px;
+}
+.books h2{
+    font-size: 30px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+    
+}
+.books ul{
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+footer{
+    margin: 50px;
+}
+footer p{
+    text-align: end;
+}
