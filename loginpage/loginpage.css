@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(178, 81, 178);
+    padding:0%;
+    margin: 0%;
+   height: 100vh;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    
+
+}
+.container{
+    background-image: url("pngtree-stunning-image-of-a-forest-under-dreamy-purple-moon-creating-perfectly-image_16516820.jpg");
+    background-repeat: no-repeat;
+    
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+   
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 7px;
+    background-color: rgb(230, 187, 230);
+    border: 3px solid black;
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2:hover{
+    background-color:rgb(173, 101, 173);
+    transition: 2s;
+    padding: 5px;
+    border-radius: 10px;
+}
+button{
+    background-color: rgb(95, 109, 109);
+    color: azure;
+    padding: 8px;
+    border-radius: 7px;
+    border: 3px solid black;
+}
